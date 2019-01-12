@@ -3,11 +3,15 @@ public class JoesClass {
   public static void main (String[] args) {
   
     int x = 0;
+    
+    while (x <= 5) {
+    
     if (x != 2) {
       System.out.println (" Git 'er done! ");
     }
     
-   }// end main
-   
+    x+= 1;
+    
+   }// end main   
 
 } // end class
